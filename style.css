@@ -1,0 +1,636 @@
+*{margin: 0px; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif}
+
+
+/* navbar1 */
+
+
+.navbar1{
+    background-color: #14457B;;
+}
+
+/* container */
+
+.container{
+    max-width:1200px;
+    margin: 0px auto;
+}
+.navbar1 .row{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar1 .text{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 1.5;
+    border-left: solid 1px rgba(255, 255, 255, 0.4);
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.navbar1 .p1{
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.navbar1 .p1, .p2{
+    font-size: 14px;
+    padding: 10px;
+}
+.navbar1 .icons ul{
+    display: flex;
+    list-style: none;
+    border-right: solid 1px rgba(255, 255, 255, 0.4);
+}
+.navbar1 ul li a{
+    color: white;
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+    border-left: solid 1px rgba(255, 255, 255, 0.4);
+}
+
+@media(max-width:1024px){
+    .navbar1{width: 100%;}
+}
+@media(max-width:768px){
+    .navbar1{width: 100%;}
+}
+@media(max-width:576px){
+    .navbar1{width: 100%;}
+}
+
+/* navbar2  */
+.navbar2{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    background-color: white;
+}
+.navbar2 .logo img{
+    width: 200px;
+    height: 90px;
+    padding: 15px 0px;
+}
+
+.navbar2 .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar2 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 180px;
+}
+.navbar2 .home{
+    color: #2490EB;
+}
+.navbar2 ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+}
+.navbar2 .buttons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar2 .btn1{
+    padding: 10px;
+    font-size: 25px;
+    margin:0px 10px;
+}
+.navbar2 .btn2{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    width: 150px; height: 50px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #2490EB;
+}
+.navbar2 .fa-bars{
+    display: none;
+}
+
+@media(max-width:768px){
+    .navbar2 .menu ul{flex-direction: column;}
+    .navbar2 .menu ul{display: none;}
+    .navbar2 .buttons .btn2{display: none;}
+    .navbar2 .fa-bars{display: block;
+    width:50px; height: 40px; background-color: #2490EB; color: white; text-align: center;
+        line-height: 2.1; border-radius: 5px;
+        font-size: 20px;
+        margin: 7px;
+}
+    
+}
+
+
+/* Owl carousel */
+.owl-nav{
+    font-size: 40px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 750px;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+}
+.owl-carousel{
+    background-image: url('images/doctor2.jpg');
+    z-index: -1;
+    max-width: 100%;
+    height: 700px;
+}
+
+.owl-carousel .item{
+    text-align: left;
+    padding: 10px;
+    max-width:1200px;
+    margin-top: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.owl-carousel .item h5{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 0px;
+    /* margin: 10px 0px; */
+    width:170px;
+    text-align: center;
+    background-color: #b8d7f1;
+    color: #0b86eb;
+}
+.owl-carousel .item .h5{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 0px;
+    /* margin: 10px 0px; */
+    width:260px;
+    text-align: center;
+    background-color: #b8d7f1;
+    color: #0b86eb;
+}
+.owl-carousel .item .h5-2{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 0px;
+    /* margin: 10px 0px; */
+    width:200px;
+    text-align: center;
+    background-color: #b8d7f1;
+    color: #0b86eb;
+}
+.owl-carousel .item h2{
+    max-width: 800px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.owl-carousel .item p{
+    max-width: 700px;
+    font-size: 14px;
+    line-height: 2;
+}
+.owl-carousel .item button{
+    padding: 10px;
+    margin: 30px 0px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    width: 150px; height: 50px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #2490EB;
+}
+
+@media(max-width:1024px){
+    .owl-carousel{width: 100%; height: 100%;}
+    
+}
+@media(max-width:768px){
+    .owl-carousel{width: 100%; height: 100%;}
+}
+@media(max-width:576px){
+    .owl-carousel{width: 100%; height: 100%;}
+}
+
+/* Three-div */
+
+.three-div .container{
+    position: relative;
+}
+
+.three-div .row{
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    top:15;
+    transform: translate(0%, -15%);
+    z-index: 1;
+}
+.three-div .div1{
+    height: 400px;
+    width: 31%;
+    background-color: #0b86eb;
+    color:white;
+    padding: 25px;
+    line-height: 2;
+}
+.three-div .div1, .div2, .div3, a{
+    color: white;
+    text-decoration: none;
+}
+.three-div a{
+    font-size: 25px;
+}
+.three-div .div2{
+    height: 400px;
+    width: 31%;
+    background-color: #14457B;
+    color: white;
+    padding: 25px;
+    line-height: 2;
+}
+.three-div .div3{
+    height: 400px;
+    width: 31%;
+    background-color: #0b86eb;
+    color: white;
+    padding: 20px;
+    line-height: 2;
+}
+.three-div .div2 button{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    width: 150px; height: 50px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #2490EB;  
+    margin-top: 20px;
+}
+.three-div h6{
+    font-size: 15px;
+    font-weight: 200;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.4);
+    width:305px;
+    line-height: 3;
+}
+.three-div .h6{
+    border: none;
+}
+.three-div .span1{
+    margin-left: 90px;
+}
+.three-div .span2{
+    margin-left: 138px;
+}
+.three-div .span3{
+    margin-left: 148px;
+}
+
+.three-div .span4{
+    margin-left: 122px;
+}
+@media(max-width:992px){
+    .three-div .row{width: 33.33%;}
+}
+@media(max-width:768px){
+    .three-div .row{width: 50%;}
+    .three-div .row{
+        flex-direction: column;
+    }
+}
+@media(max-width:576px){
+    .three-div .row{width: 100%;}
+    .three-div .row{
+        flex-direction: column;
+    }
+    .three-div .row .div1{
+        width:100%;
+    }
+    .three-div .row .div2{
+        width:100%;
+    }
+    .three-div .row .div3{
+        width:100%;
+    }
+}
+
+/* Two-div  */
+
+.two-div{
+    background-color: #e2ebf93d;
+}
+ .two-div .row{
+    display: flex;
+    margin-top: 450px;
+}
+.two-div  .image-1 img{
+    width:550px
+}
+.two-div .text-2{
+    padding: 30px;
+}
+ 
+.two-div .text-2 h4{
+    font-size :14px;
+    background-color: #b8d7f1;
+    color: #0b86eb;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 200;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.two-div .text-2 h2{
+    font-size: 50px;
+    width:650px;
+    font-weight: 500;
+    margin: 0px 0px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1;
+}
+.two-div .text-2 p{
+    font-size: 16px;
+    width:620px;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    margin-bottom: 10px;
+}
+
+.two-div .text-2 ul{
+    list-style: none;
+    /* padding-left: 0px; */
+    padding: 25px 0px;
+}
+.two-div .text-2 ul li a{
+    color: black;
+    text-decoration: none;
+    line-height: 2;
+    font-weight: 550;
+
+}
+.two-div .text-2 ul li a .fa-check{
+    color: #0b86eb;
+}
+.two-div .text-2 button{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    width: 150px; height: 50px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #2490EB;  
+    margin-top: 10px;
+}
+
+/* facility */
+.facilites{
+    margin-top: 100px;
+}
+.facilites .fac-three-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.facilites .row > h4{
+    font-size: 14px;
+    background-color: #b8d7f1;
+    color: #0b86eb;
+    width: 160px;
+    padding: 5px;
+    font-weight: 200;
+    border-radius: 3px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+.facilites .row > h2{
+    font-size: 50px;
+    width:650px;
+    font-weight: 500;
+    margin: 0px 0px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1;
+    margin: 0px auto;
+}
+
+.facilites .fac-three-div .surgery, .therapy, .peditrics{
+    width:30%;
+    height: 450px;
+    margin-top: 50px;
+    background-color: #e2ebf97e;
+}
+.facilites .fac-three-div .surgery img{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    height:366px;
+    overflow-x: hidden;
+    transition: transform 1s;
+}
+.facilites .fac-three-div .therapy img{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    height:366px;
+    overflow-x: hidden;
+     transition: transform 1s;
+}
+.facilites .fac-three-div .peditrics img{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    height:366px;
+    overflow-x: hidden;
+    transition: transform 1s;
+}
+.facilites .fac-three-div .surgery img:hover{
+    transform: scale(1.1);
+}
+.facilites .fac-three-div .therapy img:hover{
+    transform: scale(1.1);
+}
+.facilites .fac-three-div .peditrics img:hover{
+    transform: scale(1.1);
+}
+.facilites .fac-three-div .title h4{
+    width:200px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #0b86eb;
+}
+.facilites .fac-three-div .title h3{
+    width:220px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.facilites .fac-three-div .title .c-h3{
+    width:250px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 50px;
+    
+}
+.facilites .fac-three-div .logo-3 img{
+    width: 95px;
+    height: 90px;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+.facilites .fac-three-div .text-3{
+    max-width: 310px;
+    margin: 0px auto;
+}
+.facilites .fac-three-div .text-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* infection  */
+
+.infection .row{
+    display : flex;
+    height: 700px;
+    margin-top: 120px;
+}
+
+.infection .text-4{
+    /* background-color: #e2ebf97e; */
+    width:50%;
+    
+}
+.infection{
+    background-color: #e2ebf97e;
+}
+.infection .text-4 .text-4-1-1{
+    margin-top: 120px;
+}
+
+.infection .text-4 h4{
+    font-size: 14px;
+    background-color: #b8d7f1;
+    color: #0b86eb;
+    width: 100px;
+    padding: 5px;
+    font-weight: 200;
+    border-radius: 3px;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    /* margin: 20px auto; */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.infection .text-4 p{
+    font-size: 16px;
+    width:460px;
+    font-weight: 300;
+    line-height: 2;
+    /* letter-spacing: 1px; */
+    color: #8b8b8b;
+    margin-bottom: 10px;
+}
+.infection .text-4-1{
+    display: flex;
+    padding: 20px;
+}
+.infection .text-4-1 .text-4-2{
+    padding: 10px;
+}
+.infection .text-4-1 .icon-4{
+    padding:10px;
+}
+.infection .text-4 .text-4-2 p{
+    width: 350px;
+}
+.infection .text-4 h2{
+    font-size: 45px;
+    width:500px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1;
+}
+.infection .text-4 button{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    width: 150px; height: 50px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: #2490EB;  
+    margin-top: 10px;
+}
+
+.infection .text-5{
+    display: flex;
+    background-color: #14457B;
+    position: relative;
+    width:50%;
+}
+.infection .text-5 .text-5-1{
+    position: absolute;
+    top: 50%;
+    right:25%;
+    transform: translate(-25%, -50%);
+}
+.infection .text-5 .text-5-2{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    margin-left: 370px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 230px;
+    
+}
+.infection .text-5 .text-5-2 h1{
+    text-shadow: -20px -20px rgba(255, 255, 255, 0.1);
+}
+
+
+.infection .text-5 .text-5-2 .mar{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
